@@ -1,0 +1,6 @@
+runtime_resource_overlay {
+    name: "Launcher3Tapas",
+    theme: "Launcher3Tapas",
+    sdk_version: "current",
+    product_specific: true,
+}
