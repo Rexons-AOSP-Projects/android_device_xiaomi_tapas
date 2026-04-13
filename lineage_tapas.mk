@@ -14,11 +14,19 @@ $(call inherit-product, device/xiaomi/tapas/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 
+PRODUCT_MODEL := Redmi Note 12 4G
 PRODUCT_NAME := lineage_tapas
 PRODUCT_DEVICE := tapas
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 12 4G
+WITH_GMS := true
+TARGET_OPTIMIZED_DEXOPT := true
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTED_REFRESH_RATES := 60,120
+PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+TARGET_DISABLE_MATLOG := true
+SURFACE_FLINGER_BOOST := true
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
