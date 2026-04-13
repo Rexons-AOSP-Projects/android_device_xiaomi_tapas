@@ -5,10 +5,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/infinity_tapas.mk
+    $(LOCAL_DIR)/lineage_tapas.mk
 
 
 COMMON_LUNCH_CHOICES := \
-    infinity_tapas-user \
-    infinity_tapas-userdebug \
-    infinity_tapas-eng
+    lineage_tapas-user \
+    lineage_tapas-userdebug \
+    lineage_tapas-eng
