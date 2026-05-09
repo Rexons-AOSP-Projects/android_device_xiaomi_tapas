@@ -1,6 +1,9 @@
 # CNE
 persist.vendor.cne.feature=1
 
+# Bluetooth
+persist.vendor.bt.a2dp.aac_whitelist=false
+
 # Charger
 ro.charger.enable_suspend=1
 
