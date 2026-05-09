@@ -3,6 +3,9 @@ ro.product.marketname=Redmi Note 12 4G
 ro.infinity.soc=Snapdragon 685
 ro.infinity.camera=50MP + 8MP + 2MP
 
+# Bluetooth
+persist.vendor.bt.a2dp.aac_whitelist=false
+
 # CNE
 persist.vendor.cne.feature=1
 
