@@ -20,10 +20,11 @@
                to brightness values; -1 means keeping the current brightness. -->
     <integer-array name="config_doze_brightness_sensor_to_brightness">
         <item>-1</item>
-        <item>2</item>
-        <item>5</item>
-        <item>27</item>
-        <item>28</item>
+        <item>-1</item>
+        <item>-1</item>
+        <item>1</item>
+        <item>255</item>
+        <item>1</item>
     </integer-array>
 
     <!-- Doze: Table that translates sensor values from the doze_brightness_sensor_type sensor
@@ -36,7 +37,9 @@
         <item>0</item>
         <item>0</item>
         <item>0</item>
+        <item>0</item>
     </integer-array>
+
 
     <!-- A path similar to frameworks/base/core/res/res/values/config.xml
       config_mainBuiltInDisplayCutout that describes a path larger than the exact path of a display

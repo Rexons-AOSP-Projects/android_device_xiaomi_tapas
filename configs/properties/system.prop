@@ -73,6 +73,7 @@ ro.hardware.wlan.vendor=qcom
 
 # Log Spam
 persist.log.tag.QTIPowerHAL=S
+persist.log.tag.minksocket=S
 
 # Bluetooth
 persist.vendor.bt.a2dp.aac_whitelist=false
