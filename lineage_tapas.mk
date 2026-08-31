@@ -21,7 +21,7 @@ PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 12 4G
 
 
-MISTOS_MAINTAINER := "Kolassrexon"
+MISTOS_MAINTAINER := "KolassrexonXScorpionsola"
 
 # Enable GMS with mini package
 WITH_GMS := true
