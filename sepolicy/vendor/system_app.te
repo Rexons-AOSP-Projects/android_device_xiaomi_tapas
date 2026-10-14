@@ -8,3 +8,6 @@ binder_call(system_app, hal_health_default)
 binder_call(system_app, hal_ir_default)
 binder_call(system_app, hal_memtrack_default)
 binder_call(system_app, vendor_hal_gnss_qti)
+
+# Allow KProfiles to be adjusted by a system app
+allow system_app sysfs_kprofiles:file rw_file_perms;

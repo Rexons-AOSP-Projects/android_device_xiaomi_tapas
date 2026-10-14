@@ -243,6 +243,12 @@ on property:init.svc.vendor.per_mgr=running
 on property:sys.shutdown.requested=*
     stop vendor.per_proxy
 
+# Allow system to manipulate KProfiles modes and parameters
+    chown system system /sys/module/kprofiles/parameters/auto_kprofiles
+    chmod 0660 /sys/module/kprofiles/parameters/auto_kp
+    chown system system /sys/kernel/kprofiles/kp_mode
+    chmod 0660 /sys/kernel/kprofiles/kp_mode
+
 # TouchPad settings for tp_grip_area
 	on property:sys.tp.grip_enable=0
 	write /proc/tp_grip_area 0

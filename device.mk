@@ -32,6 +32,12 @@ PRODUCT_PACKAGES += \
     checkpoint_gc \
     otapreopt_script
 
+#Kprofiles
+PRODUCT_PACKAGES += \
+    KProfiles
+
+
+
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
